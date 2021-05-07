@@ -1,0 +1,41 @@
+Linux File System:-
+Linux file system is generally a built-in layer of a Linux operating system used to handle the data management of the storage.
+All the files systems are part of a single Directory.
+
+Some of the Directories:-
+1.	/bin - this is the directory that command & runs application and programs.
+2.	/dev - Device files are stored in this directory.
+3.	/etc - in this directory the system configuration is present.
+4.	/boot - it contains the boot files that are required to start device.
+5.	/home - this directory contains user's personal directories.
+6.	/mnt – this directory maunally mount storage.
+7.	/lib - this directory contains shared library files.
+8.	/media - it is the directory where the external storage will be mounted when plugged in.
+9.	/root - known as the home directory of the administrator.
+10.	/temp - directory used when system boots and you need to use temp space.
+11.	/proc - this directory stores the information of CPU & Kernel process.
+12.	/usr - this contains unique system resources. 
+13.	/var - this directory used to store data that changes frequently.
+
+Basic Commands and functions:-
+1.	pwd :- the command shows us the present working directory, simply gives us the path of the current working directory.
+2.	cat :- This command can be used to show and create files.
+3.	touch file :- it is used to create a new blank file.
+4.	cp :- stands for copy, simply means to copy all the content of a file to another file.
+5.	mv  :- this command is used to move and to rename the file. 
+6.	rm :- To delete the file.
+7.	head :- this command is used to get information about top files instead of all files.
+8.	tail :- this command is used to get information  about last files instead of all files.
+9.	ping :- used to check  working of network.
+10.	uname :- To check current version of Linux.
+11.	vi :- Text editor ,press i to insert then press ESC to return & wq to save and exit .
+12.	mkdir :-  used to make a new directory.
+13.	rmdir :- used to remove an empty directory. 
+14.	cd :- it is used to move to a particular path or to change directory.
+15.	cd ~ :-  Return to home directory.
+16.	Cp -r :- r with the copy command can be used to copy a directory including all its content from a source directory to the destination directory.
+
+17.	chmod :- this command is used to change the access mode of the file.
+18.	Is :- Used to view the content of directory.
+19.	Echo :- It inserts text in the given file
+20.	Clear :- Clears information on the display screen to provide a blank slate.
