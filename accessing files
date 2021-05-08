@@ -1,0 +1,43 @@
+In linux every thing is considered as file. and every file has its permissions divided in 3 types, these permission are very imp also for 
+to navigate from one directory to respected directory and access file.
+if we dont have permissions we cant access the file.it simply gives a error."access denied"
+and i think its also the reasion that we dont have any threat of external any malware file that entered while surfing.
+The file [ermissions are {
+Basic File Permissions :
+Each file nd directory have three user based permission groups : 
+1) user     - the user permission is of the current user on machine or the other user on the same machine.
+2) group     - the group permission as ex-we make a group on machine ,to work in team on samee project,so all the members in that group will get same permission of group.
+                so,in case to give everyone once by once permissions we can give them permissions at same time in group. 
+3) all others - others members are the members who not created that file and also not in group. its just like the permissions of file are public.
+
+Permission Types :
+Each file or directory has three basic permission types:
+1) read (4)   - The Read permission read the contents of the file.
+2) write  (2) - The Write permissions write or modify a file or directory.
+3) execute(1) - The Execute permission execute a file or view the contents of a directory.
+
+We use ls -l to see information about a file
+also  we get info about its permissions 
+the permissions of any file are given in three sections -
+as
+1) user
+2) group
+3)others
+the permissions are about read ,write and execution of that file,
+    
+Commands are available to change the owner and the group of files :
+
+1) chown :The command we used to change the owner of file.
+2) chgrp : the cmd we used to change the group of file.
+3) chmod :we use it to change mode of file,as by this cmd we can manupulate given permissions of file.  
+
+     
+Total Read, Write and Execute permissions :
+
+1) Execute permission                                        :	--x
+2) Write permission                                          :	-w-
+3) Execute and write permission: 1 (execute) + 2 (write) = 3 :	-wx
+4) Read permission                                           :	r--
+5) Read and execute permission: 4 (read) + 1 (execute) = 5   :	r-x
+6) Read and write permission: 4 (read) + 2 (write)     = 6	 :  rw-
+7) All permissions: 4 (read) + 2 (write) + 1 (execute) = 7	 :  rwx
